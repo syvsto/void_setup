@@ -1,10 +1,6 @@
 #!/bin/bash
 
-sudo xbps-install -S emacs-x11 xorg xf86-video-fbdev midori
-
-sudo xbps-install -S curl wget git the_silver_searcher gnupg
-
-sudo xbps-install -S gpm feh compton
+sudo xbps-install -S emacs-x11 xorg xf86-video-fbdev midori curl wget git the_silver_searcher gnupg
 
 git clone https://github.com/syvsto/.emacs.d.git ~/.emacs.d
 
